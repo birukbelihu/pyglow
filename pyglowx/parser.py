@@ -1,5 +1,5 @@
 import re
-from .unicode_mapping import (
+from .ansi_codes_mapping import (
    ANSI_RESET,
    contains_foreground_color,
    contains_background_color,
