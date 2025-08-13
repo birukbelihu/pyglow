@@ -1,7 +1,7 @@
 [project]
 name = "pyglowx"
 version = "1.2.0"
-description = "A lightweight, markdown-style console text formatter library for python."
+description = "pyglowx is a lightweight, cross-platform, markdown-style console text formatter library for python."
 readme = { file = "README.md", content-type = "text/markdown" }
 
 requires-python = ">=3.9"

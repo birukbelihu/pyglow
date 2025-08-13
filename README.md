@@ -72,11 +72,11 @@ PyGlowx.print("[cyan bold]pyglowx[/] is a lightweight, [bold]markdown-style cons
 
 ## 📦 Library Overview
 
-| Function                                    | Description                                               |
-|---------------------------------------------|-----------------------------------------------------------|
-| `PyGlowx.parse(String text)`                | Converts your markdown-style tags to ANSI-coded string    |
-| `PyGlowx.print(String text)`                | Prints the text with the provided style tags              |
-| `PyGlowx.prints(String text, String style)` | Prints the text with a provided style for the entire text |
+| Function                              | Description                                               |
+|---------------------------------------|-----------------------------------------------------------|
+| `PyGlowx.parse(str text)`             | Converts your markdown-style tags to ANSI-coded string    |
+| `PyGlowx.print(str text)`             | Prints the text with the provided style tags              |
+| `PyGlowx.prints(str text, str style)` | Prints the text with a provided style for the entire text |
 
 ---
 
