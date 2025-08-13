@@ -16,7 +16,7 @@ GitHub: [pyglowx](https://github.com/BirukBelihu/pyglowx)
 
 - 💻Cross platform (**Windows**, **Linux**, **macOS**)
 - ✅ **Markdown-style tags**: `[red]`, `[green bold]`, `[italic underline]`
-- 🎨 **Foreground & background colors with support for custom rgb & hexadecimal colors along with some predefined ANSI
+- 🎨 **Foreground & background colors with support for custom rgb(red, green, blue) & hexadecimal colors along with some predefined ANSI
   colors**
 - 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`
 - 🔄 **Nested tag support**
@@ -82,7 +82,7 @@ PyGlowx.print("[cyan bold]pyglowx[/] is a lightweight, [bold]markdown-style cons
 
 ## 📄 Demo & Documentation
 
-Check out [main.py](https://github.com/birukbelihu/GlowPy/blob/master/main.py) for:
+Check out [main.py](https://github.com/birukbelihu/pyglowx/blob/master/main.py) for:
 
 - ✅ Full usage examples
 - ✅ Tag reference documentation
