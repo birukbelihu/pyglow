@@ -21,5 +21,9 @@ def main():
  PyGlowx.print("[rgb(255,56,0) italic underline]Red text[/]")
  PyGlowx.print("[hex(#00FF00) bold dim]Green text[/]")
 
+ PyGlowx.print("[yellow bold strike]Task completed[/]")
+
+ PyGlowx.print("[yellow bold blink]Hey there do you like pyglowx?[/]")
+
 if __name__ == "__main__":
     main()
