@@ -1,10 +1,10 @@
-from .parser import GlowPyParser
+from .parser import PyGlowxParser
 
 class PyGlowx:
 
     @staticmethod
     def parse(text: str) -> str:
-        parsed_text, _ = GlowPyParser.parse_recursively(text)
+        parsed_text, _ = PyGlowxParser.parse_recursively(text)
         return parsed_text
 
     @staticmethod

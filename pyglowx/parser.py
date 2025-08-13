@@ -9,7 +9,7 @@ from .unicode_mapping import (
    get_style
 )
 
-class GlowPyParser:
+class PyGlowxParser:
  @staticmethod
  def parse_recursively(input_str: str, start=0):
     output = []
@@ -56,7 +56,7 @@ class GlowPyParser:
                 elif contains_style(tag):
                     ansi.append(get_style(tag))
 
-            inner_result, next_index = GlowPyParser.parse_recursively(input_str, end + 1)
+            inner_result, next_index = PyGlowxParser.parse_recursively(input_str, end + 1)
             output.append("".join(ansi))
             output.append(inner_result)
             output.append(ANSI_RESET)
