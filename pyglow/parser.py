@@ -1,22 +1,23 @@
 import re
 from .ansi_codes_mapping import (
-   ANSI_RESET,
-   contains_foreground_color,
-   contains_background_color,
-   contains_style,
-   get_foreground_color,
-   get_background_color,
-   get_style
+    ANSI_RESET,
+    contains_foreground_color,
+    contains_background_color,
+    contains_style,
+    get_foreground_color,
+    get_background_color,
+    get_style,
+    get_closest_match
 )
+
+rgb_pattern = re.compile(r"^rgb\((\d{1,3}),(\d{1,3}),(\d{1,3})\)$")
+hex_pattern = re.compile(r"^hex\(#([A-Fa-f0-9]{6})\)$")
 
 class PyGlowParser:
  @staticmethod
  def parse_recursively(input_str: str, start=0):
     output = []
     i = start
-
-    rgb_pattern = re.compile(r"^rgb\((\d{1,3}),(\d{1,3}),(\d{1,3})\)$")
-    hex_pattern = re.compile(r"^hex\(#([A-Fa-f0-9]{6})\)$")
 
     while i < len(input_str):
         if input_str.startswith("[/", i):
@@ -55,6 +56,12 @@ class PyGlowParser:
                     ansi.append(get_background_color(tag))
                 elif contains_style(tag):
                     ansi.append(get_style(tag))
+                else:
+                    suggestion = get_closest_match(tag_lower)
+                    if suggestion is not None:
+                         return f"{tag} not found. Did you mean {suggestion}?", i
+                    else:
+                        raise ValueError(f"tag {tag} not found.")
 
             inner_result, next_index = PyGlowParser.parse_recursively(input_str, end + 1)
             output.append("".join(ansi))
