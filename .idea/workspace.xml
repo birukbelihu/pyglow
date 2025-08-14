@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="v1.2.7">
+    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="adds suggestion for misspelt tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/ansi_codes_mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/ansi_codes_mapping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755167088905</updated>
       <workItem from="1755167092321" duration="203000" />
-      <workItem from="1755167304057" duration="6277000" />
+      <workItem from="1755167304057" duration="6786000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -133,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755171546062</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adds suggestion for misspelt tags">
+      <option name="closed" value="true" />
+      <created>1755175148604</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755175148604</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +147,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="v1.2.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.2.7" />
+    <MESSAGE value="adds suggestion for misspelt tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds suggestion for misspelt tags" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyglow$pyglow.coverage" NAME="pyglow Coverage Results" MODIFIED="1755175103447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
