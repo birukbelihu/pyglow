@@ -1,14 +1,14 @@
-from pyglowx.pyglowx import PyGlowx
+from pyglow.pyglow import PyGlow
 
 
 def main():
-    PyGlowx.print("[green]Success: [bold]42 tests passed!!![/]")
+    PyGlow.print("[green]Success: [bold]42 tests passed!!![/]")
 
-    PyGlowx.print("[bg-yellow black italic]Warning:[/] Low disk space.")
+    PyGlow.print("[bg-yellow black italic]Warning:[/] Low disk space.")
 
-    PyGlowx.print("[red bold]Error:[/] Something went wrong!")
+    PyGlow.print("[red bold]Error:[/] Something went wrong!")
 
-    PyGlowx.prints(r"""
+    PyGlow.prints(r"""
                          _
  _ __    _   _    __ _  | |   ___   __      __
 | '_ \  | | | |  / _` | | |  / _ \  \ \ /\ / /
@@ -18,15 +18,15 @@ def main():
 
                """, "hex(#0e76e6) bold")
 
-    PyGlowx.prints("Python Glow", "bold underline magenta")
-    PyGlowx.print("[bg-black cyan]This is a test of the pyglow library.[/]")
+    PyGlow.prints("Python Glow", "bold underline magenta")
+    PyGlow.print("[bg-black cyan]This is a test of the pyglow library.[/]")
 
-    PyGlowx.print("[rgb(255,56,0) italic underline]Red text[/]")
-    PyGlowx.print("[hex(#00FF00) bold dim]Green text[/]")
+    PyGlow.print("[rgb(255,56,0) italic underline]Red text[/]")
+    PyGlow.print("[hex(#00FF00) bold dim]Green text[/]")
 
-    PyGlowx.print("[yellow bold strike]Task completed[/]")
+    PyGlow.print("[yellow bold strike]Task completed[/]")
 
-    PyGlowx.print("[yellow bold blink]Hey there do you like pyglow?[/]")
+    PyGlow.print("[yellow bold blink]Hey there do you like pyglow?[/]")
 
 
 if __name__ == "__main__":

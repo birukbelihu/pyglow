@@ -59,9 +59,9 @@ pip install -e .
 ## 🧠 Example Usage
 
 ```python
-from pyglow.pyglow import pyglow
+from pyglow.pyglow import PyGlow
 
-pyglow.print("[cyan bold]pyglow[/] is a lightweight, [bold]markdown-style console text formatter[/] library for Python. \nIt enables developers to output styled text in the terminal using simple and readable tags like `[red bold]Error[/]`.")
+PyGlow.print("[cyan bold]pyglow[/] is a lightweight, [bold]markdown-style console text formatter[/] library for Python. \nIt enables developers to output styled text in the terminal using simple and readable tags like `[red bold]Error[/]`.")
 ```
 
 ### Output
@@ -74,9 +74,9 @@ pyglow.print("[cyan bold]pyglow[/] is a lightweight, [bold]markdown-style consol
 
 | Function                             | Description                                               |
 |--------------------------------------|-----------------------------------------------------------|
-| `pyglow.parse(str text)`             | Converts your markdown-style tags to ANSI-coded string    |
-| `pyglow.print(str text)`             | Prints the text with the provided style tags              |
-| `pyglow.prints(str text, str style)` | Prints the text with a provided style for the entire text |
+| `Pyglow.parse(str text)`             | Converts your markdown-style tags to ANSI-coded string    |
+| `Pyglow.print(str text)`             | Prints the text with the provided style tags              |
+| `Pyglow.prints(str text, str style)` | Prints the text with a provided style for the entire text |
 
 ---
 
