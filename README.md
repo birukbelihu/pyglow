@@ -26,7 +26,7 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 
 ### Sample
 
-![PyGlow Sample](images/sample_1.png)
+![PyGlow Sample](https://github.com/birukbelihu/pyglow/blob/master/images/sample_1.png)
 
 ## 📦 Installation
 
@@ -67,7 +67,7 @@ PyGlow.print("[cyan bold]pyglow[/] is a lightweight, [bold]markdown-style consol
 
 ### Output
 
-![pyglow Output](images/sample_2.png)
+![pyglow Output](https://github.com/birukbelihu/pyglow/blob/master/images/sample_2.png)
 
 ---
 

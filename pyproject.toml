@@ -1,5 +1,5 @@
 [project]
-name = "pyglow"
+name = "pyglowx"
 version = "1.2.7"
 description = "pyglow is a lightweight, cross-platform, markdown-style console text formatter library for python."
 readme = { file = "README.md", content-type = "text/markdown" }
