@@ -1,15 +1,15 @@
-# pyglowx
+# pyglow
 
-![GitHub Repo stars](https://img.shields.io/github/stars/BirukBelihu/pyglowx)
-![GitHub forks](https://img.shields.io/github/forks/BirukBelihu/pyglowx)
-![GitHub issues](https://img.shields.io/github/issues/BirukBelihu/pyglowx)
+![GitHub Repo stars](https://img.shields.io/github/stars/BirukBelihu/pyglow)
+![GitHub forks](https://img.shields.io/github/forks/BirukBelihu/pyglow)
+![GitHub issues](https://img.shields.io/github/issues/BirukBelihu/pyglow)
 [![PyPI Downloads](https://static.pepy.tech/badge/pyglowx)](https://pepy.tech/projects/pyglowx)<br>
 ![Python](https://img.shields.io/pypi/pyversions/pyglowx)
 
-**pyglowx** is a lightweight, cross-platform, markdown-style console text formatter library for python.
+**pyglow** is a lightweight, cross-platform, markdown-style console text formatter library for python.
 
 ---
-GitHub: [pyglowx](https://github.com/BirukBelihu/pyglowx)
+GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 ---
 
 ## ✨ Features
@@ -33,19 +33,19 @@ GitHub: [pyglowx](https://github.com/BirukBelihu/pyglowx)
 pip install pyglowx
 ```
 
-You can also install pyglowx from source code. source code may not be stable, but it will have the latest features and
+You can also install pyglow from source code. source code may not be stable, but it will have the latest features and
 bug fixes.
 
 Clone the repository:
 
 ```
-git clone https://github.com/birukbelihu/pyglowx.git
+git clone https://github.com/birukbelihu/pyglow.git
 ```
 
 Go inside the project directory:
 
 ```bash
-cd pyglowx
+cd pyglow
 ```
 
 Install pyglow:
@@ -59,30 +59,30 @@ pip install -e .
 ## 🧠 Example Usage
 
 ```python
-from pyglowx.pyglowx import PyGlowx
+from pyglow.pyglow import pyglow
 
-PyGlowx.print("[cyan bold]pyglowx[/] is a lightweight, [bold]markdown-style console text formatter[/] library for Python. \nIt enables developers to output styled text in the terminal using simple and readable tags like `[red bold]Error[/]`.")
+pyglow.print("[cyan bold]pyglow[/] is a lightweight, [bold]markdown-style console text formatter[/] library for Python. \nIt enables developers to output styled text in the terminal using simple and readable tags like `[red bold]Error[/]`.")
 ```
 
 ### Output
 
-![PyGlowX Output](images/sample_2.png)
+![pyglow Output](images/sample_2.png)
 
 ---
 
 ## 📦 Library Overview
 
-| Function                              | Description                                               |
-|---------------------------------------|-----------------------------------------------------------|
-| `PyGlowx.parse(str text)`             | Converts your markdown-style tags to ANSI-coded string    |
-| `PyGlowx.print(str text)`             | Prints the text with the provided style tags              |
-| `PyGlowx.prints(str text, str style)` | Prints the text with a provided style for the entire text |
+| Function                             | Description                                               |
+|--------------------------------------|-----------------------------------------------------------|
+| `pyglow.parse(str text)`             | Converts your markdown-style tags to ANSI-coded string    |
+| `pyglow.print(str text)`             | Prints the text with the provided style tags              |
+| `pyglow.prints(str text, str style)` | Prints the text with a provided style for the entire text |
 
 ---
 
 ## 📄 Demo & Documentation
 
-Check out [main.py](https://github.com/birukbelihu/pyglowx/blob/master/main.py) for:
+Check out [main.py](https://github.com/birukbelihu/pyglow/blob/master/main.py) for:
 
 - ✅ Full usage examples
 - ✅ Tag reference documentation
@@ -92,7 +92,7 @@ Check out [main.py](https://github.com/birukbelihu/pyglowx/blob/master/main.py) 
 
 ## 🙌 Contribute
 
-Want to improve `pyglowx`? Contributions are welcome!
+Want to improve `pyglow`? Contributions are welcome!
 
 ---
 
@@ -110,4 +110,4 @@ Made with ❤️ by **[BirukBelihu](https://github.com/birukbelihu)**
 ## 📄 License
 
 This project is licensed under the **Apache License 2.0**. See
-the [LICENSE](https://github.com/birukbelihu/pyglowx/blob/master/LICENSE) file for details.
+the [LICENSE](https://github.com/birukbelihu/pyglow/blob/master/LICENSE) file for details.

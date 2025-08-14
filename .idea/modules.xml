@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pyglowx.iml" filepath="$PROJECT_DIR$/.idea/pyglowx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pyglow.iml" filepath="$PROJECT_DIR$/.idea/pyglow.iml" />
     </modules>
   </component>
 </project>
