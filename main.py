@@ -16,9 +16,9 @@ def main():
 | .__/   \__, |  \__, | |_|  \___/    \_/\_/
 |_|      |___/   |___/
 
-               """, "hex(#0e76e6) bold")
+               """, style="hex(#0e76e6) bold")
 
-    PyGlow.prints("Python Glow", "bold underline magenta")
+    PyGlow.prints("Python Glow", style="bold underline magenta")
     PyGlow.print("[bg-black cyan]This is a test of the pyglow library.[/]")
 
     PyGlow.print("[rgb(255,56,0) italic underline]Red text[/]")
