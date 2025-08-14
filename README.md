@@ -75,7 +75,7 @@ PyGlow.print("[cyan bold]pyglow[/] is a lightweight, [bold]markdown-style consol
 | Function                             | Description                                               |
 |--------------------------------------|-----------------------------------------------------------|
 | `Pyglow.parse(str text)`             | Converts your markdown-style tags to ANSI-coded string    |
-| `Pyglow.print(str text)`             | Prints the text with the provided style tags              |
+| `Pyglow.print(str text)`             | Prints the text with the provided style                   |
 | `Pyglow.prints(str text, str style)` | Prints the text with a provided style for the entire text |
 
 ---
