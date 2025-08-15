@@ -1,3 +1,4 @@
 .venv
 uv.lock
 pyglow.egg-info
+sample.py

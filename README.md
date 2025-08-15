@@ -20,13 +20,17 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
   colors**
 - 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`, `blink`, `strike` & more
 - 🔄 **Nested tag support**
-- ✅ Case insensitive tag names(Bold bold, cyan Cyan is the same) or Suggest the closest match of misspelt tag names(If available).
+- ✅ Case insensitive tag names(Bold, bold, BOLD).or Suggest the closest match of misspelt tag names(If available).
 
 ---
 
-### Sample
+### Samples
 
 ![PyGlow Sample](https://github.com/birukbelihu/pyglow/blob/master/images/sample_1.png)
+
+![PyGlow Sample 2](https://github.com/birukbelihu/pyglow/blob/master/images/sample_2.png)
+
+---
 
 ## 📦 Installation
 
@@ -67,7 +71,7 @@ PyGlow.print("[cyan bold]pyglow[/] is a lightweight, [bold]markdown-style consol
 
 ### Output
 
-![pyglow Output](https://github.com/birukbelihu/pyglow/blob/master/images/sample_2.png)
+![pyglow Output](https://github.com/birukbelihu/pyglow/blob/master/images/sample_3.png)
 
 ---
 
