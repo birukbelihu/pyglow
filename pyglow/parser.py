@@ -50,12 +50,12 @@ class PyGlowParser:
                     g = int(hex_code[2:4], 16)
                     b = int(hex_code[4:6], 16)
                     ansi.append(f"\u001b[38;2;{r};{g};{b}m")
-                elif contains_foreground_color(tag):
-                    ansi.append(get_foreground_color(tag))
-                elif contains_background_color(tag):
-                    ansi.append(get_background_color(tag))
-                elif contains_style(tag):
-                    ansi.append(get_style(tag))
+                elif contains_foreground_color(tag_lower):
+                    ansi.append(get_foreground_color(tag_lower))
+                elif contains_background_color(tag_lower):
+                    ansi.append(get_background_color(tag_lower))
+                elif contains_style(tag_lower):
+                    ansi.append(get_style(tag_lower))
                 else:
                     suggestion = get_closest_match(tag_lower)
                     if suggestion is not None:
