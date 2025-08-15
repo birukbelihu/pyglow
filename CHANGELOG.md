@@ -6,3 +6,7 @@
 
 ## Adds suggestion for misspelt tags
 ## Performance improvements
+
+# [1.3.1] 2025-08-
+
+## Adds case insensitivity to tag names
