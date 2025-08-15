@@ -10,3 +10,4 @@
 # [1.3.1] 2025-08-
 
 ## Adds case insensitivity to tag names
+## Adds constants for colors(Fore.BLUE, Back.GREEN)
