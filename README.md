@@ -20,7 +20,8 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
   colors**
 - 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`, `blink`, `strike` & more
 - 🔄 **Nested tag support**
-- ✅ Case insensitive tag names(Bold, bold, BOLD).or Suggest the closest match of misspelt tag names(If available).
+- ✅ Case insensitive tag names(Bold, bold, BOLD). 
+- ✅ Suggest the closest match of misspelt tag names(If available).
 
 ---
 
