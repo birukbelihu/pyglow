@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="Adds constants for colors">
+    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="Adds hyperlink support">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sample_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/sample_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sample_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/sample_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/ansi/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/ansi/background.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/ansi/foreground.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/ansi/foreground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/ansi/style.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/ansi/style.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/ansi_mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/mapping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/pyglow.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/pyglow.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,31 +45,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.ansi_mapping.executor": "Run",
-    "Python.foreground.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.parser.executor": "Run",
-    "Python.pyglow.executor": "Run",
-    "Python.sample.executor": "Run",
-    "Python.utils.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/biruk/PycharmProjects/pyglow",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ansi_mapping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.foreground.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pyglow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/biruk/PycharmProjects/pyglow&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\biruk\PycharmProjects\pyglow\pyglow" />
@@ -128,7 +122,8 @@
       <workItem from="1755247411867" duration="344000" />
       <workItem from="1755247770736" duration="5134000" />
       <workItem from="1755334654288" duration="207000" />
-      <workItem from="1755334868460" duration="7231000" />
+      <workItem from="1755334868460" duration="7890000" />
+      <workItem from="1755342882882" duration="1034000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -250,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755336170109</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Adds hyperlink support">
+      <option name="closed" value="true" />
+      <created>1755342396168</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1755342396168</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,15 +265,16 @@
     <MESSAGE value="adds suggestion for misspelt tags" />
     <MESSAGE value="Adds case insensitivity to tag names" />
     <MESSAGE value="Adds constants for colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds constants for colors" />
+    <MESSAGE value="Adds hyperlink support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds hyperlink support" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pyglow$parser.coverage" NAME="parser Coverage Results" MODIFIED="1755341135665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow" />
+    <SUITE FILE_PATH="coverage/pyglow$parser.coverage" NAME="parser Coverage Results" MODIFIED="1755342211614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow" />
     <SUITE FILE_PATH="coverage/pyglow$ansi_mapping.coverage" NAME="ansi_mapping Coverage Results" MODIFIED="1755336154675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow" />
     <SUITE FILE_PATH="coverage/pyglow$main.coverage" NAME="main Coverage Results" MODIFIED="1755338607998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyglow$foreground.coverage" NAME="foreground Coverage Results" MODIFIED="1755250215993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow/ansi_codes" />
     <SUITE FILE_PATH="coverage/pyglow$utils.coverage" NAME="utils Coverage Results" MODIFIED="1755339112968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow" />
-    <SUITE FILE_PATH="coverage/pyglow$sample.coverage" NAME="sample Coverage Results" MODIFIED="1755342018496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyglow$pyglow.coverage" NAME="pyglow Coverage Results" MODIFIED="1755337171256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/pyglow$sample.coverage" NAME="sample Coverage Results" MODIFIED="1755342680872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyglow$pyglow.coverage" NAME="pyglow Coverage Results" MODIFIED="1755343369127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

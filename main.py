@@ -20,6 +20,8 @@ def main():
 
                """, style="hex(#0e76e6) BOLD")
 
+    PyGlow.print(f"[link=https://github.com/BirukBelihu/pyglow]pyglow GitHub[]")
+
     PyGlow.prints("Python Glow", style="bold underline magenta")
     PyGlow.print("[bg-black Cyan]This is a test of the pyglow library.[/]")
 
@@ -30,7 +32,7 @@ def main():
 
     PyGlow.print("[yellow bold Blink]Hey there do you like pyglow?[/]")
 
-    PyGlow.printc(f"{Fore.GREEN}{Style.STRIKE} pynum2words")
+    PyGlow.printc(f"{Fore.WHITE}{Back.BRIGHT_GREEN}{Style.STRIKE} pynum2words")
     PyGlow.printc(f"{Fore.BRIGHT_MAGENTA}{Style.ITALIC} pynum2words is a Python library for converting numbers to their word representation and vice versa, using a built-in or custom dictionary.")
 
 if __name__ == "__main__":
