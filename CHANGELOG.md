@@ -14,6 +14,6 @@
 
 ## Adds constants for colors(Fore.BLUE, Back.GREEN, Style.BLINK)
 
-## Adds new method to (printc) print text with a constant(Fore.BLUE, Back.GREEN, Style.BLINK) without any manual reset.
+## Adds new method (printc) to print text with a constant(Fore.BLUE, Back.GREEN, Style.BLINK) without any manual reset.
 
 ## Adds hyperlink support
