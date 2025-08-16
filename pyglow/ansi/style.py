@@ -1,5 +1,6 @@
 from pyglow.mapping import get_style
 
+
 class Style:
     BOLD = get_style("bold")
     DIM = get_style("dim")

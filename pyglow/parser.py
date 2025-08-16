@@ -14,6 +14,7 @@ from .utils import is_terminal_supports_hyperlink
 rgb_pattern = re.compile(r"^rgb\((\d{1,3}),(\d{1,3}),(\d{1,3})\)$")
 hex_pattern = re.compile(r"^hex\(#([A-Fa-f0-9]{6})\)$")
 
+
 class PyGlowParser:
     @staticmethod
     def parse_recursively(input_str: str, start=0):
@@ -40,9 +41,9 @@ class PyGlowParser:
                     inner_result, next_index = PyGlowParser.parse_recursively(input_str, end + 1)
 
                     if is_terminal_supports_hyperlink():
-                      output.append(f"\033]8;;{url}\033\\{inner_result}\033]8;;\033\\")
+                        output.append(f"\033]8;;{url}\033\\{inner_result}\033]8;;\033\\")
                     else:
-                      output.append(f"\033]8;;{url}\033\\{inner_result}\033]8;;\033\\")
+                        output.append(f"\033]8;;{url}\033\\{inner_result}\033]8;;\033\\")
                     i = next_index
                     continue
 

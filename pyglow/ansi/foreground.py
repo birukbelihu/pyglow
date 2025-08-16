@@ -1,5 +1,6 @@
 from pyglow.mapping import get_foreground_color
 
+
 class Fore:
     BLACK = get_foreground_color("black")
     RED = get_foreground_color("red")

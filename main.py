@@ -3,6 +3,7 @@ from pyglow.ansi.foreground import Fore
 from pyglow.ansi.background import Back
 from pyglow.ansi.style import Style
 
+
 def main():
     PyGlow.print("[green]Success: [bold]42 tests passed!!![/]")
 
@@ -33,7 +34,9 @@ def main():
     PyGlow.print("[yellow bold Blink]Hey there do you like pyglow?[/]")
 
     PyGlow.printc(f"{Fore.WHITE}{Back.BRIGHT_GREEN}{Style.STRIKE} pynum2words")
-    PyGlow.printc(f"{Fore.BRIGHT_MAGENTA}{Style.ITALIC} pynum2words is a Python library for converting numbers to their word representation and vice versa, using a built-in or custom dictionary.")
+    PyGlow.printc(
+        f"{Fore.BRIGHT_MAGENTA}{Style.ITALIC} pynum2words is a Python library for converting numbers to their word representation and vice versa, using a built-in or custom dictionary.")
+
 
 if __name__ == "__main__":
     main()

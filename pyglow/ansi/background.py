@@ -1,5 +1,6 @@
 from pyglow.mapping import get_background_color
 
+
 class Back:
     BLACK = get_background_color("bg-black")
     RED = get_background_color("bg-red")

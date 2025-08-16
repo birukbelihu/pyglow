@@ -1,5 +1,6 @@
 import os
 
+
 def is_terminal_supports_hyperlink() -> bool:
     if "WT_SESSION" in os.environ:
         return True

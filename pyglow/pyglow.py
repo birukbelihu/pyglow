@@ -1,6 +1,7 @@
 from .parser import PyGlowParser
 from .mapping import ANSI_RESET
 
+
 class PyGlow:
 
     @staticmethod
