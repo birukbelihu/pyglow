@@ -1,5 +1,7 @@
 from pyglow.pyglow import PyGlow
-
+from pyglow.ansi.foreground import Fore
+from pyglow.ansi.background import Back
+from pyglow.ansi.style import Style
 
 def main():
     PyGlow.print("[green]Success: [bold]42 tests passed!!![/]")
@@ -28,6 +30,7 @@ def main():
 
     PyGlow.print("[yellow bold Blink]Hey there do you like pyglow?[/]")
 
+    print(f"{Fore.GREEN}{Style.BLINK} pynum2words [/]")
 
 if __name__ == "__main__":
     main()

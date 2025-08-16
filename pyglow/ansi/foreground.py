@@ -1,4 +1,4 @@
-from pyglow.ansi_codes_mapping import get_foreground_color
+from pyglow.ansi_mapping import get_foreground_color
 
 class Fore:
     BLACK = get_foreground_color("black")

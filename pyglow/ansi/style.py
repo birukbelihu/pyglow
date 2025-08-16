@@ -1,4 +1,4 @@
-from pyglow.ansi_codes_mapping import get_style
+from pyglow.ansi_mapping import get_style
 
 class Style:
     BOLD = get_style("bold")

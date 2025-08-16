@@ -7,7 +7,7 @@
 ## Adds suggestion for misspelt tags
 ## Performance improvements
 
-# [1.3.1] 2025-08-
+# [1.3.1] 2025-08-16
 
 ## Adds case insensitivity to tag names
-## Adds constants for colors(Fore.BLUE, Back. GREEN)
+## Adds constants for colors(Fore.BLUE, Back.GREEN, Style.BLINK)
