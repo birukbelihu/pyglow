@@ -19,7 +19,7 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 - 🎨 **Foreground & background colors with support for custom rgb(235, 64, 52) & hexadecimal colors(#eb4034) along with some predefined ANSI
   colors**
 - 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`, `blink`, `strike` & more
-- 🔗 **Hyperlink**
+- 🔗 **Hyperlink support**
 - 🔄 **Nested tag support**
 - 🔡 Case insensitive tag names(Bold, bold, BOLD). 
 - 💡 Suggest the closest match of misspelt tag names(If available).
@@ -79,11 +79,12 @@ PyGlow.print("[cyan bold][link=https://github.com/birukbelihu/pyglow]pyglow[/][/
 
 ## 📦 Library Overview
 
-| Function                             | Description                                               |
-|--------------------------------------|-----------------------------------------------------------|
-| `Pyglow.parse(str text)`             | Converts your markdown-style tags to ANSI-coded string    |
-| `Pyglow.print(str text)`             | Prints the text with the provided style                   |
-| `Pyglow.prints(str text, str style)` | Prints the text with a provided style for the entire text |
+| Function                             | Description                                                                                                |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------|
+| `Pyglow.parse(str text)`             | Converts your markdown-style tags to ANSI-coded string                                                     |
+| `Pyglow.print(str text)`             | Prints the text with the provided style                                                                    |
+| `Pyglow.printc(str text)`            | Prints the text with the provided style with constants(Fore.BLUE, Back.GREEN, Style.BLINK) with auto reset |
+| `Pyglow.prints(str text, str style)` | Prints the text with a provided style for the entire text                                                  |
 
 ---
 
