@@ -1,6 +1,6 @@
 from pyglow.ansi_codes_mapping import get_style
 
-class Styles:
+class Style:
     BOLD = get_style("bold")
     DIM = get_style("dim")
     ITALIC = get_style("italic")
