@@ -1,4 +1,5 @@
 from .parser import PyGlowParser
+from .mapping import ANSI_RESET
 
 class PyGlow:
 
@@ -14,3 +15,7 @@ class PyGlow:
     @staticmethod
     def prints(text: str, style: str):
         PyGlow.print(f"[{style}]{text}[/]")
+
+    @staticmethod
+    def printc(text: str):
+        print(f"{text}{ANSI_RESET}")

@@ -1,4 +1,4 @@
-from pyglow.ansi_mapping import get_background_color
+from pyglow.mapping import get_background_color
 
 class Back:
     BLACK = get_background_color("bg-black")

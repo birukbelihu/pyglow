@@ -19,9 +19,10 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 - 🎨 **Foreground & background colors with support for custom rgb(235, 64, 52) & hexadecimal colors(#eb4034) along with some predefined ANSI
   colors**
 - 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`, `blink`, `strike` & more
+- 🔗 **Hyperlink**
 - 🔄 **Nested tag support**
-- ✅ Case insensitive tag names(Bold, bold, BOLD). 
-- ✅ Suggest the closest match of misspelt tag names(If available).
+- 🔡 Case insensitive tag names(Bold, bold, BOLD). 
+- 💡 Suggest the closest match of misspelt tag names(If available).
 
 ---
 
@@ -67,7 +68,7 @@ pip install -e .
 ```python
 from pyglow.pyglow import PyGlow
 
-PyGlow.print("[cyan bold]pyglow[/] is a lightweight, [bold]markdown-style console text formatter[/] library for Python. \nIt enables developers to output styled text in the terminal using simple and readable tags like `[red bold]Error[/]`.")
+PyGlow.print("[cyan bold][link=https://github.com/birukbelihu/pyglow]pyglow[/][/] is a lightweight, [bold]markdown-style console text formatter[/] library for Python. \nIt enables developers to output styled text in the terminal using simple and readable tags like `[red bold]Error[/]`.")
 ```
 
 ### Output

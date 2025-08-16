@@ -30,7 +30,8 @@ def main():
 
     PyGlow.print("[yellow bold Blink]Hey there do you like pyglow?[/]")
 
-    print(f"{Fore.GREEN}{Style.BLINK} pynum2words [/]")
+    PyGlow.printc(f"{Fore.GREEN}{Style.STRIKE} pynum2words")
+    PyGlow.printc(f"{Fore.BRIGHT_MAGENTA}{Style.ITALIC} pynum2words is a Python library for converting numbers to their word representation and vice versa, using a built-in or custom dictionary.")
 
 if __name__ == "__main__":
     main()
