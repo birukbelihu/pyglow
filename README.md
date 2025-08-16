@@ -28,9 +28,9 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 
 ### Samples
 
-![PyGlow Sample](https://github.com/birukbelihu/pyglow/blob/master/images/sample_1.png)
+![PyGlow Sample](https://github.com/birukbelihu/pyglow/raw/master/images/sample_1.png)
 
-![PyGlow Sample 2](https://github.com/birukbelihu/pyglow/blob/master/images/sample_2.png)
+![PyGlow Sample 2](https://github.com/birukbelihu/pyglow/raw/master/images/sample_2.png)
 
 ---
 
@@ -73,7 +73,7 @@ PyGlow.print("[cyan bold][link=https://github.com/birukbelihu/pyglow]pyglow[/][/
 
 ### Output
 
-![pyglow Output](https://github.com/birukbelihu/pyglow/blob/master/images/sample_3.png)
+![pyglow Output](https://github.com/birukbelihu/pyglow/raw/master/images/sample_3.png)
 
 ---
 

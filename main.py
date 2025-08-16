@@ -20,7 +20,7 @@ def main():
 
                """, style="hex(#0e76e6) BOLD")
 
-    PyGlow.print(f"[link=https://github.com/BirukBelihu/pyglow]pyglow GitHub[]")
+    PyGlow.print(f"[link=https://github.com/birukbelihu/pyglow]pyglow GitHub[]")
 
     PyGlow.prints("Python Glow", style="bold underline magenta")
     PyGlow.print("[bg-black Cyan]This is a test of the pyglow library.[/]")
