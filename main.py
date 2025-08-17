@@ -1,7 +1,7 @@
 from pyglow.pyglow import PyGlow
-from pyglow.ansi.foreground import Fore
-from pyglow.ansi.background import Back
-from pyglow.ansi.style import Style
+from pyglow.styles.foreground import Fore
+from pyglow.styles.background import Back
+from pyglow.styles.style import Style
 
 
 def main():
