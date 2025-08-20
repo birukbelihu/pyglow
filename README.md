@@ -16,9 +16,7 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 
 - 💻Cross platform (**Windows**, **Linux**, **macOS**)
 - ✅ **Markdown-style tags**: `[red]`, `[green bold]`, `[italic underline]`
-- 🎨 **Foreground & background colors with support for custom rgb(235, 64, 52) & hexadecimal colors(#eb4034) along with
-  some predefined ANSI
-  colors**
+- 🎨 **Foreground & background colors with support for custom rgb(235, 64, 52) & hexadecimal colors(#EB4034) along with some predefined ANSI colors**
 - 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`, `blink`, `strike` & more
 - 🔗 **Hyperlink support**
 - 🔄 **Nested tag support**

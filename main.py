@@ -34,8 +34,7 @@ def main():
     PyGlow.print("[yellow bold Blink]Hey there do you like pyglow?[/]")
 
     PyGlow.printc(f"{Fore.WHITE}{Back.BRIGHT_GREEN}{Style.STRIKE} pynum2words")
-    PyGlow.printc(
-        f"{Fore.BRIGHT_MAGENTA}{Style.ITALIC} pynum2words is a Python library for converting numbers to their word representation and vice versa, using a built-in or custom dictionary.")
+    PyGlow.printc(f"{Fore.BRIGHT_MAGENTA}{Style.ITALIC} pynum2words is a Python library for converting numbers to their word representation and vice versa, using a built-in or custom dictionary.")
 
 
 if __name__ == "__main__":
