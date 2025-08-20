@@ -53,8 +53,8 @@ STYLES = {
 }
 
 
-def preprocess(text: str) -> str:
-    return text.strip()
+def preprocess(tag: str) -> str:
+    return tag.strip()
 
 
 def get_closest_match(tag: str) -> str:
