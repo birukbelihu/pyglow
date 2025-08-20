@@ -1,4 +1,3 @@
-import difflib
 from typing import Union, Optional, Any
 
 ANSI_RESET = "\u001B[0m"
@@ -52,16 +51,7 @@ STYLES = {
     "strike": "\u001B[9m"
 }
 
-
-def preprocess(tag: str) -> str:
-    return tag.strip()
-
-
-def get_closest_match(tag: str) -> str:
-    all_mappings = list(FOREGROUND_COLORS.keys()) + list(BACKGROUND_COLORS.keys()) + list(STYLES.keys())
-    matches = difflib.get_close_matches(preprocess(tag), all_mappings, n=3, cutoff=0.7)
-    return matches[0] if matches else None
-
+from .utils import preprocess
 
 def contains_foreground_color(tag: str) -> bool:
     return preprocess(tag) in FOREGROUND_COLORS

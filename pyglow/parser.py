@@ -7,9 +7,8 @@ from .mapping import (
     get_foreground_color,
     get_background_color,
     get_style,
-    get_closest_match
 )
-from .utils import is_terminal_supports_hyperlink
+from .utils import is_terminal_supports_hyperlink, get_closest_match
 
 rgb_pattern = re.compile(r"^rgb\((\d{1,3}),(\d{1,3}),(\d{1,3})\)$")
 hex_pattern = re.compile(r"^hex\(#([A-Fa-f0-9]{6})\)$")
