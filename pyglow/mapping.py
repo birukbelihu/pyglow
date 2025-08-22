@@ -1,5 +1,3 @@
-from typing import Union, Optional, Any
-
 ANSI_RESET = "\u001B[0m"
 
 FOREGROUND_COLORS = {
@@ -51,7 +49,7 @@ STYLES = {
     "strike": "\u001B[9m"
 }
 
-from .utils import preprocess
+from pyglow.utilities.utils import preprocess
 
 def contains_foreground_color(tag: str) -> bool:
     return preprocess(tag) in FOREGROUND_COLORS
@@ -65,7 +63,7 @@ def contains_style(tag: str) -> bool:
     return preprocess(tag) in STYLES
 
 
-def get_foreground_color(tag: str) -> Union[Optional[str], Any]:
+def get_foreground_color(tag: str) -> str:
     return FOREGROUND_COLORS.get(preprocess(tag), f"{tag} not found")
 
 

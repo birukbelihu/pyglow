@@ -2,7 +2,7 @@ from .parser import PyGlowParser
 from .mapping import ANSI_RESET
 
 
-class PyGlow:
+class Glow:
 
     @staticmethod
     def parse(text: str) -> str:
@@ -11,11 +11,11 @@ class PyGlow:
 
     @staticmethod
     def print(text: str):
-        print(PyGlow.parse(text))
+        print(Glow.parse(text))
 
     @staticmethod
     def prints(text: str, style: str):
-        PyGlow.print(f"[{style}]{text}[/]")
+        Glow.print(f"[{style}]{text}[/]")
 
     @staticmethod
     def printc(text: str):

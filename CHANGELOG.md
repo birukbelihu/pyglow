@@ -17,3 +17,7 @@
 ## Adds new method (printc) to print text with a constant(Fore.BLUE, Back.GREEN, Style.BLINK) without any manual reset.
 
 ## Adds hyperlink support
+
+# [1.3.5] 2025-08-22
+
+## Adds Table

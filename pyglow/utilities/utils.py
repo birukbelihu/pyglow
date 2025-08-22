@@ -1,6 +1,6 @@
 import os
 import difflib
-from .mapping import FOREGROUND_COLORS, BACKGROUND_COLORS, STYLES
+from pyglow.mapping import FOREGROUND_COLORS, BACKGROUND_COLORS, STYLES
 
 def preprocess(tag: str) -> str:
     return tag.strip()

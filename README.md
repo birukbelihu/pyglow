@@ -14,7 +14,7 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 
 ## ✨ Features
 
-- 💻Cross platform (**Windows**, **Linux**, **macOS**)
+- 💻**Cross platform** (**Windows**, **Linux**, **macOS**)
 - ✅ **Markdown-style tags**: `[red]`, `[green bold]`, `[italic underline]`
 - 🎨 **Foreground & background colors** with support for custom rgb(235, 64, 52) & hexadecimal colors(#EB4034) along with some predefined ANSI colors
 - 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`, `blink`, `strike` & more
@@ -27,9 +27,9 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 
 ### Samples
 
-![PyGlow Sample](https://github.com/birukbelihu/pyglow/raw/master/images/sample_1.png)
+![Glow Sample](https://github.com/birukbelihu/pyglow/raw/master/images/sample_1.png)
 
-![PyGlow Sample 2](https://github.com/birukbelihu/pyglow/raw/master/images/sample_2.png)
+![Glow Sample 2](https://github.com/birukbelihu/pyglow/raw/master/images/sample_2.png)
 
 ---
 
@@ -65,9 +65,10 @@ pip install -e .
 ## 🧠 Example Usage
 
 ```python
-from pyglow.pyglow import PyGlow
+from pyglow.glow import Glow
 
-PyGlow.print("[cyan bold][link=https://github.com/birukbelihu/pyglow]pyglow[/][/] is a lightweight, [bold]markdown-style console text formatter[/] library for Python. \nIt enables developers to output styled text in the terminal using simple and readable tags like `[red bold]Error[/]`.")
+Glow.print(
+    "[cyan bold][link=https://github.com/birukbelihu/pyglow]pyglow[/][/] is a lightweight, [bold]markdown-style console text formatter[/] library for Python. \nIt enables developers to output styled text in the terminal using simple and readable tags like `[red bold]Error[/]`.")
 ```
 
 ### Output
