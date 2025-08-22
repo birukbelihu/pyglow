@@ -18,6 +18,7 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 - ✅ **Markdown-style tags**: `[red]`, `[green bold]`, `[italic underline]`
 - 🎨 **Foreground & background colors** with support for custom rgb(235, 64, 52) & hexadecimal colors(#EB4034) along with some predefined ANSI colors
 - 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`, `blink`, `strike` & more
+- 🏞️ **Views**: `Spinner`, `Table` & more will be added soon.
 - 🔗 **Hyperlink support**
 - 🔄 **Nested tag support**
 - 🔡 Case insensitive tag names(Bold, bold, BOLD).
@@ -79,12 +80,12 @@ Glow.print(
 
 ## 📦 Library Overview
 
-| Function                             | Description                                                                                                |
-|--------------------------------------|------------------------------------------------------------------------------------------------------------|
-| `Pyglow.parse(str text)`             | Converts your markdown-style tags to ANSI-coded string                                                     |
-| `Pyglow.print(str text)`             | Prints the text with the provided style                                                                    |
-| `Pyglow.printc(str text)`            | Prints the text with the provided style with constants(Fore.BLUE, Back.GREEN, Style.BLINK) with auto reset |
-| `Pyglow.prints(str text, str style)` | Prints the text with a provided style for the entire text                                                  |
+| Function                           | Description                                                                                                |
+|------------------------------------|------------------------------------------------------------------------------------------------------------|
+| `Glow.parse(str text)`             | Converts your markdown-style tags to ANSI-coded string                                                     |
+| `Glow.print(str text)`             | Prints the text with the provided style                                                                    |
+| `Glow.printc(str text)`            | Prints the text with the provided style with constants(Fore.BLUE, Back.GREEN, Style.BLINK) with auto reset |
+| `Glow.prints(str text, str style)` | Prints the text with a provided style for the entire text                                                  |
 
 ---
 
