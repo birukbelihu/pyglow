@@ -80,7 +80,7 @@ Glow.print(
 
 ### Running the examples
 
-if you want to run the examples you can install pyglow stable or development version in your virtual environment & you can simply test them.
+if you want to run the examples you can install pyglow stable or development version in your virtual environment & you can simply run them.
 
 ### Set up Python virtual environment(I recommend using [uv](https://github.com/astral-sh/uv) for lightning speed)
 
@@ -120,7 +120,7 @@ uv pip install pyglowx
 pip install pyglowx
 ```
 
-or install the dev version as described in this [section](https://github.com/birukbelihu/pyglow?tab=readme-ov-file#-installation) then run any example you want.
+or install the dev version as described in this [section](https://github.com/birukbelihu/pyglow?tab=readme-ov-file#-installation) and run any example you want.
 
 ```bash
 # Go inside the examples directory

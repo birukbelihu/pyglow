@@ -20,4 +20,4 @@
 
 # [1.3.5] 2025-08-
 
-## Adds Table & Spinner. Check the example usage here.
+## Adds Table & Spinner. Check the example usage [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
