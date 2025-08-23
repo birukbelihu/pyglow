@@ -18,6 +18,6 @@
 
 ## Adds hyperlink support
 
-# [1.3.5] 2025-08-22
+# [1.3.5] 2025-08-
 
-## Adds Table
+## Adds Table & Spinner. Check the example usage here.

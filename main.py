@@ -1,4 +1,4 @@
-from pyglow.glow import Glow
+from pyglow.pyglow import Glow
 from pyglow.styles.foreground import Fore
 from pyglow.styles.background import Back
 from pyglow.styles.style import Style
@@ -32,10 +32,6 @@ def main():
     Glow.print("[yellow bold Strike]Task completed[/]")
 
     Glow.print("[yellow bold Blink]Hey there do you like pyglow?[/]")
-
-    Glow.printc(f"{Fore.WHITE}{Back.BRIGHT_GREEN}{Style.STRIKE} pynum2words")
-    Glow.printc(f"{Fore.BRIGHT_MAGENTA}{Style.ITALIC} pynum2words is a Python library for converting numbers to their word representation and vice versa, using a built-in or custom dictionary.")
-
 
 if __name__ == "__main__":
     main()

@@ -1,1 +1,1 @@
-from .glow import Glow
+from .pyglow import Glow
