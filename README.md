@@ -17,7 +17,7 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 - 💻**Cross platform** (**Windows**, **Linux**, **macOS**)
 - ✅ **Markdown-style tags**: `[red]`, `[green bold]`, `[italic underline]`
 - 🎨 **Foreground & background colors** with support for custom rgb(235, 64, 52) & hexadecimal colors(#EB4034) along with some predefined ANSI colors
-- 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`, `blink`, `strike` & more
+- 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`, `blink` & more
 - 🏞️ **Views**: `Spinner`, `Table` & more will be added soon.
 - 🔗 **Hyperlink support**
 - 🔄 **Nested tag support**
@@ -77,6 +77,67 @@ Glow.print(
 ### Output
 
 ![pyglow Output](https://github.com/birukbelihu/pyglow/raw/master/images/sample_3.png)
+
+### Running the examples
+
+if you want to run the examples you can install pyglow stable or development version in your virtual environment & you can simply test them.
+
+### Set up Python virtual environment(I recommend using [uv](https://github.com/astral-sh/uv) for lightning speed)
+
+### With uv
+
+```bash
+uv venv .venv
+```
+
+### With Python
+
+```bash
+python -m venv .venv
+```
+
+# Activate virtual environment
+
+```bash
+.venv\Scripts\activate # On Windows
+```
+
+```bash
+source .venv/bin/activate # On Linux, WSL & macOS
+```
+
+# Install pyglow
+
+### With uv
+
+```bash
+uv pip install pyglowx
+```
+
+### With Python
+
+```bash
+pip install pyglowx
+```
+
+or install the dev version as described in this section then run any example you want.
+
+```bash
+# Go inside the examples directory
+
+cd examples
+```
+
+```bash
+# Run any example you want
+
+python hyperlink_example.py
+python nested_tags_example.py
+python spinner_example.py
+python style_example.py
+python table_example.py
+python tags_example.py
+```
 
 ---
 
