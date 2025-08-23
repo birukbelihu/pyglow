@@ -2,6 +2,7 @@ from pyglow.pyglow import Glow
 from pyglow.styles.foreground import Fore
 from pyglow.styles.background import Back
 from pyglow.styles.style import Style
+from pyglow.mapping import ANSI_RESET
 
 
 def main():
@@ -30,6 +31,8 @@ def main():
     Glow.print("[hex(#00FF00) bold dim]Green text[/]")
 
     Glow.print("[yellow bold Strike]Task completed[/]")
+
+    print(f"{Fore.BRIGHT_YELLOW}{Back.CYAN}{Style.ITALIC} pyglow {ANSI_RESET}")
 
     Glow.print("[yellow bold Blink]Hey there do you like pyglow?[/]")
 
