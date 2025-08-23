@@ -28,11 +28,13 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 
 ### Samples
 
-![Glow Sample](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_1.png)
+![pyglow Sample](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_1.png)
 
-![Glow Sample 2](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_2.png)
+![pyglow Sample 2](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_2.png)
 
-![Glow Sample 3](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_4.png)
+![pyglow Sample 3](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_4.png)
+
+![pyglow Sample 4](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_5.png)
 
 ---
 
