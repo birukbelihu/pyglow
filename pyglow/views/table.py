@@ -14,7 +14,7 @@ class Table:
                  header_color="#2196F3",
                  row_colors=None):
         self.title = title
-        self.title_color = hex_to_rgb(title_color)
+        self.title_color = hex_to_foreground(title_color)
         self.border_color = hex_to_foreground(border_color)
         self.header_color = hex_to_foreground(header_color)
 

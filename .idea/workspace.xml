@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="Adds examples">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sample_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/sample_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sample_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/sample_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sample_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/sample_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sample_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/samples/sample_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyglow/views/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/views/table.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +145,7 @@
       <workItem from="1755883049605" duration="1692000" />
       <workItem from="1755929743603" duration="1323000" />
       <workItem from="1755934946568" duration="5203000" />
-      <workItem from="1755954132520" duration="1047000" />
+      <workItem from="1755954132520" duration="1503000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -448,7 +443,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755954772607</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Adds examples">
+      <option name="closed" value="true" />
+      <created>1755955228207</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1755955228207</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Adds examples">
+      <option name="closed" value="true" />
+      <created>1755955405204</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1755955405204</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
