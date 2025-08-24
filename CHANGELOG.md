@@ -1,12 +1,6 @@
-# [1.2.0] - 2025-08-13
+# [1.3.5] 2025-08-
 
-## pyglow Initial Release
-
-# [1.2.7] - 2025-08-14
-
-## Adds suggestion for misspelt tags
-
-## Performance improvements
+## Adds Table & Spinner. Check the sample usage [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
 
 # [1.3.2] 2025-08-16
 
@@ -18,6 +12,12 @@
 
 ## Adds hyperlink support
 
-# [1.3.5] 2025-08-
+# [1.2.7] - 2025-08-14
 
-## Adds Table & Spinner. Check the example usage [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
+## Adds suggestion for misspelt tags
+
+## Performance improvements
+
+# [1.2.0] - 2025-08-13
+
+## pyglow Initial Release
