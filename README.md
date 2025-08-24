@@ -6,7 +6,7 @@
 [![PyPI Downloads](https://static.pepy.tech/badge/pyglowx)](https://pepy.tech/projects/pyglowx)<br>
 ![Python](https://img.shields.io/pypi/pyversions/pyglowx)
 
-**pyglow** is a lightweight, feature rich, cross-platform, markdown-style console text formatter library for python.
+**pyglow** is a lightweight, feature rich, cross-platform, markdown-style console output formatter library for python.
 
 ---
 GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)

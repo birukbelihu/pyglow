@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="Fixed table title issue">
+    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="v1.4.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
       <workItem from="1755954132520" duration="2262000" />
       <workItem from="1756012940757" duration="37000" />
       <workItem from="1756053330177" duration="1837000" />
-      <workItem from="1756055534337" duration="302000" />
+      <workItem from="1756055534337" duration="927000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -488,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756055146744</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="v1.4.0">
+      <option name="closed" value="true" />
+      <created>1756056176790</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1756056176790</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +524,8 @@
     <MESSAGE value="v1.3.2" />
     <MESSAGE value="Adds examples" />
     <MESSAGE value="Fixed table title issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed table title issue" />
+    <MESSAGE value="v1.4.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.4.0" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyglow$parser.coverage" NAME="parser Coverage Results" MODIFIED="1755342211614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow" />
