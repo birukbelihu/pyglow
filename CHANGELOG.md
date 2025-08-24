@@ -1,4 +1,4 @@
-# [1.3.5] 2025-08-
+# [1.4.0] 2025-08-24
 
 ## Adds Table & Spinner. Check the sample usage [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
 
