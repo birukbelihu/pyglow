@@ -1,5 +1,6 @@
 import sys
 import time
+import shutil
 import itertools
 from pyglow.mapping import ANSI_RESET
 from pyglow.utilities.color_utils import hex_to_foreground
@@ -22,5 +23,5 @@ class Spinner:
 
     def stop(self):
         self.running = False
-        sys.stdout.write(f"\r{self.bar_color}✔️{ANSI_RESET} {self.prefix} Done!\n")
+        sys.stdout.write("\r" + " " * shutil.get_terminal_size((80, 20)).columns + "\r")
         sys.stdout.flush()

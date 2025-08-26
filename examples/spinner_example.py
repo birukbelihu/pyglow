@@ -8,7 +8,7 @@ t = threading.Thread(target=spinner.start)
 t.start()
 
 # Simulate some work
-for i in range(1, 20):
+for i in range(1, 3):
     time.sleep(1)
 
 # Stop the spinner when done
