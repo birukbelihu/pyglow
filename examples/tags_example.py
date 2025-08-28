@@ -6,7 +6,7 @@ from pyglow.styles.style import Style
 
 
 def main():
- Glow.prints("Python glow", style="bold underline magenta")
+ Glow.prints("Python glow", "bold underline magenta")
  Glow.print("[bg-black Cyan]This is a test of the pyglow library.[/]")
 
  Glow.print("[rgb(255,56,0) italic underline]Red text[/]")
