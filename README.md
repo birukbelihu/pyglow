@@ -183,7 +183,6 @@ Want to improve `pyglow`? Contributions are welcome!
 ---
 
 Shine bright in your terminal! 🚀
-Made with ❤️ by **[BirukBelihu](https://github.com/birukbelihu)**
 
 ---
 
