@@ -14,9 +14,9 @@ class Glow:
         print(Glow.parse(text))
 
     @staticmethod
-    def prints(text: str, style: str):
-        Glow.print(f"[{style}]{text}[/]")
-
-    @staticmethod
     def printc(text: str):
         print(f"{text}{ANSI_RESET}")
+
+    @staticmethod
+    def prints(text: str, style: str):
+        Glow.print(f"[{style}]{text}[/]")

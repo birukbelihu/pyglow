@@ -18,7 +18,7 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 - ✅ **Markdown-style tags**: `[red]`, `[green bold]`, `[italic underline]`
 - 🎨 **Foreground & background colors** with support for custom rgb(235, 64, 52) & hexadecimal colors(#EB4034) along with some predefined ANSI colors
 - 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`, `blink` & more
-- 🏞️ **Views**: `Spinner`, `Table` & more will be added soon.
+- 🏞️ **Views**: `Panel`, `Progressbar`, `Spinner` & `Table`
 - 🔗 **Hyperlink support**
 - 🔄 **Nested tag support**
 - 🔡 Case insensitive tag names(Bold, bold, BOLD).
@@ -37,6 +37,10 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 ![pyglow Sample 4](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_5.png)
 
 ![pyglow Sample 5](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_6.png)
+
+![pyglow Sample 6](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_7.png)
+
+![pyglow Sample 7](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_8.png)
 
 ---
 
@@ -137,6 +141,8 @@ cd examples
 
 python hyperlink_example.py
 python nested_tags_example.py
+python panel_example.py
+python progressbar_example.py
 python spinner_example.py
 python style_example.py
 python table_example.py
@@ -158,10 +164,9 @@ python tags_example.py
 
 ## 📄 Demo & Documentation
 
-Check out [main.py](https://github.com/birukbelihu/pyglow/blob/master/main.py) for:
+Check out the [examples](https://github.com/birukbelihu/pyglow/blob/examples) for:
 
 - ✅ Full usage examples
-- ✅ Tag reference documentation
 - ✅ Quickstart code snippets
 
 ---

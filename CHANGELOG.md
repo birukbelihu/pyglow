@@ -1,6 +1,6 @@
 # [1.4.0] 2025-08-24
 
-## Adds Table & Spinner. Check the sample usage [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
+## Adds Panel, Table, Spinner & Progressbar. Check their respective example usage [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
 
 # [1.3.2] 2025-08-16
 
