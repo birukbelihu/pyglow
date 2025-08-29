@@ -6,8 +6,7 @@ class Glow:
 
     @staticmethod
     def parse(text: str) -> str:
-        parsed_text, _ = PyGlowParser.parse_recursively(text)
-        return parsed_text
+        return PyGlowParser.parse(text)
 
     @staticmethod
     def print(text: str):
