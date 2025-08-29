@@ -42,6 +42,10 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 
 ![pyglow Sample 7](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_8.png)
 
+![pyglow Sample 8](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_9.png)
+
+![pyglow Sample 9](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_10.png)
+
 ---
 
 ## 📦 Installation
