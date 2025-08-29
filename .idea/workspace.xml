@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="Adds termpicker" />
+    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="Adds termpicker">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +56,7 @@
     "Python.parser.executor": "Run",
     "Python.pyglow.executor": "Run",
     "Python.sample.executor": "Run",
+    "Python.script.executor": "Run",
     "Python.spinner_example.executor": "Run",
     "Python.style_example.executor": "Run",
     "Python.table_example.executor": "Run",
@@ -159,15 +163,7 @@
       <workItem from="1756402451106" duration="23000" />
       <workItem from="1756443053285" duration="2736000" />
       <workItem from="1756447369924" duration="281000" />
-      <workItem from="1756454421380" duration="2681000" />
-    </task>
-    <task id="LOCAL-00003" summary="v1.2.7">
-      <option name="closed" value="true" />
-      <created>1755171292400</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1755171292400</updated>
+      <workItem from="1756454421380" duration="2987000" />
     </task>
     <task id="LOCAL-00004" summary="v1.2.7">
       <option name="closed" value="true" />
@@ -553,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756456875456</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Adds termpicker">
+      <option name="closed" value="true" />
+      <created>1756457212825</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1756457212827</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,8 +596,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyglow$parser.coverage" NAME="parser Coverage Results" MODIFIED="1755342211614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow" />
     <SUITE FILE_PATH="coverage/pyglow$main.coverage" NAME="main Coverage Results" MODIFIED="1755338607998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyglow$foreground.coverage" NAME="foreground Coverage Results" MODIFIED="1755250215993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow/ansi_codes" />
     <SUITE FILE_PATH="coverage/pyglow$spinner_example.coverage" NAME="spinner_example Coverage Results" MODIFIED="1755936493501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/pyglow$foreground.coverage" NAME="foreground Coverage Results" MODIFIED="1755250215993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow/ansi_codes" />
     <SUITE FILE_PATH="coverage/pyglow$utils.coverage" NAME="utils Coverage Results" MODIFIED="1755339112968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow" />
     <SUITE FILE_PATH="coverage/pyglow$sample.coverage" NAME="sample Coverage Results" MODIFIED="1756445624400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyglow$table_example.coverage" NAME="table_example Coverage Results" MODIFIED="1755936305769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
@@ -601,6 +605,7 @@
     <SUITE FILE_PATH="coverage/pyglow$style_example.coverage" NAME="style_example Coverage Results" MODIFIED="1755937003322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
     <SUITE FILE_PATH="coverage/pyglow$tags_example.coverage" NAME="tags_example Coverage Results" MODIFIED="1755930782540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
     <SUITE FILE_PATH="coverage/pyglow$hyperlink_example.coverage" NAME="hyperlink_example Coverage Results" MODIFIED="1755936378830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/pyglow$script.coverage" NAME="script Coverage Results" MODIFIED="1756457406727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/prototypes" />
     <SUITE FILE_PATH="coverage/pyglow$pyglow.coverage" NAME="pyglow Coverage Results" MODIFIED="1756445681421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

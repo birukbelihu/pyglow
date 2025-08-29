@@ -18,7 +18,7 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 - ✅ **Markdown-style tags**: `[red]`, `[green bold]`, `[italic underline]`
 - 🎨 **Foreground & background colors** with support for custom rgb(235, 64, 52) & hexadecimal colors(#EB4034) along with some predefined ANSI colors
 - 🪄 **Text styles**: `bold`, `dim`, `italic`, `underline`, `blink` & more
-- 🏞️ **Views**: `Panel`, `Progressbar`, `Spinner` & `Table`
+- 🏞️ **Views**: `Panel`, `Progressbar`, `Spinner` & `Table` & more
 - 🔗 **Hyperlink support**
 - 🔄 **Nested tag support**
 - 🔡 Case insensitive tag names(Bold, bold, BOLD).
