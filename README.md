@@ -169,7 +169,7 @@ python termpicker_example.py
 
 ## 📄 Demo & Documentation
 
-Check out the [examples](https://github.com/birukbelihu/pyglow/tree/master/examples) for:
+Check out the [examples](https://github.com/birukbelihu/pyglow/raw/master/examples) for:
 
 - ✅ Full usage examples
 - ✅ Quickstart code snippets
