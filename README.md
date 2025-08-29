@@ -151,6 +151,7 @@ python spinner_example.py
 python style_example.py
 python table_example.py
 python tags_example.py
+python termpicker_example.py
 ```
 
 ---
