@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="Adds examples for new views">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="Adds progressbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/pyglow.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/pyglow.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,36 +46,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.ansi_mapping.executor": "Run",
-    "Python.foreground.executor": "Run",
-    "Python.hyperlink_example.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.parser.executor": "Run",
-    "Python.pyglow.executor": "Run",
-    "Python.sample.executor": "Run",
-    "Python.spinner_example.executor": "Run",
-    "Python.style_example.executor": "Run",
-    "Python.table_example.executor": "Run",
-    "Python.tags_example.executor": "Run",
-    "Python.utils.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/biruk/PycharmProjects/pyglow/samples",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ansi_mapping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.foreground.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hyperlink_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pyglow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.spinner_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.style_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.table_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tags_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/biruk/PycharmProjects/pyglow/samples&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\biruk\PycharmProjects\pyglow\samples" />
@@ -162,7 +159,8 @@
       <workItem from="1756390832988" duration="1498000" />
       <workItem from="1756396374649" duration="565000" />
       <workItem from="1756402451106" duration="23000" />
-      <workItem from="1756443053285" duration="2673000" />
+      <workItem from="1756443053285" duration="2736000" />
+      <workItem from="1756447369924" duration="94000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -548,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756444255750</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Adds progressbar">
+      <option name="closed" value="true" />
+      <created>1756445810880</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1756445810880</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,7 +586,8 @@
     <MESSAGE value="v1.4.0" />
     <MESSAGE value="v1.4.0 fixes spinner leftover issues" />
     <MESSAGE value="Adds examples for new views" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds examples for new views" />
+    <MESSAGE value="Adds progressbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds progressbar" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyglow$parser.coverage" NAME="parser Coverage Results" MODIFIED="1755342211614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow" />

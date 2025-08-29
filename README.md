@@ -164,7 +164,7 @@ python tags_example.py
 
 ## 📄 Demo & Documentation
 
-Check out the [examples](https://github.com/birukbelihu/pyglow/blob/examples) for:
+Check out the [examples](https://github.com/birukbelihu/pyglow/tree/master/examples) for:
 
 - ✅ Full usage examples
 - ✅ Quickstart code snippets
