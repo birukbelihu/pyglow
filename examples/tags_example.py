@@ -9,8 +9,8 @@ def main():
  Glow.prints("Python glow", "bold underline magenta")
  Glow.print("[bg-black Cyan]This is a test of the pyglow library.[/]")
 
- Glow.print("[rgb(255,56,0) italic underline]Red text[/]")
- Glow.print("[hex(#00FF00) bold dim]Green text[/]")
+ Glow.print("[rgb(255,56,0) italic underline]Red subtitle[/]")
+ Glow.print("[hex(#00FF00) bold dim]Green subtitle[/]")
 
  Glow.print("[yellow bold Strike]Task completed[/]")
 

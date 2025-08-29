@@ -1,6 +1,6 @@
 from pyglow.parser import ANSI_RESET
 from pyglow.styles.style import Style
-from pyglow.utilities.color_utils import hex_to_rgb, hex_to_foreground
+from pyglow.utilities.color_utils import hex_to_foreground
 
 class Table:
     TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT = "┏", "┓", "┗", "┛"

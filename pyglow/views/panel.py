@@ -13,22 +13,28 @@ class Panel:
     }
 
     def __init__(self,
-                 title=None,
+                 title="",
                  subtitle="",
                  title_color="#FFFFFF",
-                 text_color="#FFFFFF",
+                 subtitle_color="#FFFFFF",
                  border_color="#3F51B5",
                  border_style=Border.ROUNDED,
                  padding=1,
                  align="left"):
         self.title = title
-        self.text = str(subtitle) if subtitle else ""
+        self.subtitle = str(subtitle) if subtitle else ""
         self.title_color = hex_to_foreground(title_color)
-        self.text_color = hex_to_foreground(text_color)
+        self.text_color = hex_to_foreground(subtitle_color)
         self.border_color = hex_to_foreground(border_color)
         self.padding = padding
         self.align = align.lower()
         self.set_border_style(border_style)
+
+    def set_title(self, title):
+        self.title = title
+
+    def set_subtitle(self, subtitle):
+        self.subtitle = subtitle
 
     def set_border_style(self, style_name):
         style = self.BORDER_STYLES.get(style_name, self.BORDER_STYLES["rounded"])
@@ -48,7 +54,7 @@ class Panel:
             return line.ljust(content_width)
 
     def show(self):
-        lines = self.text.split("\n")
+        lines = self.subtitle.split("\n")
         content_width = max(len(line) for line in lines) if lines else 0
         title_width = len(self.title) if self.title else 0
         content_width = max(content_width, title_width)

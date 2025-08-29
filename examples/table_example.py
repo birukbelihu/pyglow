@@ -6,6 +6,7 @@ def main():
         border_color="#44E80E",
         header_color="#0E19E8",
     )
+
  table.set_title("Students Info Table")
 
  table.add_column("ID")

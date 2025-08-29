@@ -7,7 +7,11 @@
     <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="v1.4.0 fixes spinner leftover issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/nested_tags_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/nested_tags_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/table_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/table_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/tags_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/tags_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyglow/views/panel.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/views/panel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyglow/views/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/views/table.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +159,9 @@
       <workItem from="1756222891211" duration="791000" />
       <workItem from="1756364486673" duration="799000" />
       <workItem from="1756390832988" duration="1498000" />
+      <workItem from="1756396374649" duration="565000" />
+      <workItem from="1756402451106" duration="23000" />
+      <workItem from="1756443053285" duration="887000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
