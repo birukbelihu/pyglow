@@ -14,7 +14,7 @@ rgb_pattern = re.compile(r"^rgb\((\d{1,3}),(\d{1,3}),(\d{1,3})\)$")
 hex_pattern = re.compile(r"^hex\(#([A-Fa-f0-9]{6})\)$")
 
 
-class PyGlowParser:
+class Parser:
     @staticmethod
     def parse(input_str: str):
         output = []

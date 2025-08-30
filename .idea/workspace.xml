@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="Optimized parser">
+    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="v1.5.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/nested_tags_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/nested_tags_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyglow/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyglow/pyglow.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/pyglow.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,15 +166,7 @@
       <workItem from="1756447369924" duration="281000" />
       <workItem from="1756454421380" duration="3320000" />
       <workItem from="1756470095929" duration="4213000" />
-      <workItem from="1756541442073" duration="375000" />
-    </task>
-    <task id="LOCAL-00008" summary="Adds case insensitivity to tag names">
-      <option name="closed" value="true" />
-      <created>1755248160197</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1755248160197</updated>
+      <workItem from="1756541442073" duration="481000" />
     </task>
     <task id="LOCAL-00009" summary="Adds case insensitivity to tag names">
       <option name="closed" value="true" />
@@ -560,7 +552,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756472611537</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="v1.5.0">
+      <option name="closed" value="true" />
+      <created>1756541899044</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1756541899044</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +595,8 @@
     <MESSAGE value="Adds progressbar" />
     <MESSAGE value="Adds termpicker" />
     <MESSAGE value="Optimized parser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized parser" />
+    <MESSAGE value="v1.5.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.5.0" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyglow$parser.coverage" NAME="parser Coverage Results" MODIFIED="1755342211614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyglow" />

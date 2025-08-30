@@ -1,4 +1,4 @@
-from .parser import PyGlowParser
+from .parser import Parser
 from .mapping import ANSI_RESET
 
 
@@ -6,7 +6,7 @@ class Glow:
 
     @staticmethod
     def parse(text: str) -> str:
-        return PyGlowParser.parse(text)
+        return Parser.parse(text)
 
     @staticmethod
     def print(text: str):
