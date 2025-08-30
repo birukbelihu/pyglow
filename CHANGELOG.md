@@ -1,7 +1,11 @@
+# [1.5.0] 2025-08-29
+
+## Adds Panel, Progressbar & TermPicker. Check their respective example usage [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
+## Performance improvements
+
 # [1.4.0] 2025-08-24
 
-## Adds Panel, Table, Spinner, Progressbar & TermPicker. Check their respective example usage [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
-## A well Optimized & efficient tags parser
+## Adds Table, Spinner. Check their respective example usage [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
 
 # [1.3.2] 2025-08-16
 
