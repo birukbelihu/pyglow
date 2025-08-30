@@ -72,9 +72,9 @@ class PyGlowParser:
                     else:
                         suggestion = get_closest_match(tag_lower)
                         if suggestion:
-                            raise KeyError(f"unknown tag: {tag}, did you mean '{suggestion}'?")
+                            raise KeyError(f"Tag `{tag}` not found. did you mean '{suggestion}'?")
                         else:
-                            raise KeyError(f"unknown tag: {tag}")
+                            raise KeyError(f"Tag `{tag}` not found.")
                 if ansi:
                     ansi_str = "".join(ansi)
                     output.append(ansi_str)
