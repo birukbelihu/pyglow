@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="v1.5.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/nested_tags_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/nested_tags_example.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +168,7 @@
       <workItem from="1756470095929" duration="4213000" />
       <workItem from="1756541442073" duration="554000" />
       <workItem from="1756542131752" duration="463000" />
+      <workItem from="1756632408185" duration="261000" />
     </task>
     <task id="LOCAL-00010" summary="Adds case insensitivity to tag names">
       <option name="closed" value="true" />

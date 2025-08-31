@@ -186,12 +186,6 @@ Shine bright in your terminal! 🚀
 
 ---
 
-## 📢 Social Media
-
-- 📺 [YouTube: @pythondevs](https://youtube.com/@pythondevs?si=_CZxaEBwDkQEj4je)
-
----
-
 ## 📄 License
 
 This project is licensed under the **Apache License 2.0**. See
