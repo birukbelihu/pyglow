@@ -1,4 +1,4 @@
-from pyglow.parser import ANSI_RESET
+from pyglow.mapping import ANSI_RESET
 from pyglow.styles.style import Style
 from pyglow.utilities.color_utils import hex_to_foreground
 
