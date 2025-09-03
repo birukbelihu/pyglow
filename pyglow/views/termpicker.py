@@ -27,7 +27,7 @@ def _get_key():
         try:
             tty.setraw(fd)
             ch1 = sys.stdin.read(1)
-            if ch1 == "\x1b":  # Escape sequence
+            if ch1 == "\x1b":
                 ch2 = sys.stdin.read(1)
                 ch3 = sys.stdin.read(1)
                 return ch1 + ch2 + ch3

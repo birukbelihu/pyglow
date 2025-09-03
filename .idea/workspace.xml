@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="v1.5.0">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pyglow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyglow.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/views/panel.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/views/panel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/views/progressbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/views/progressbar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyglow/views/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/views/table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyglow/views/termpicker.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/views/termpicker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,15 +168,7 @@
       <workItem from="1756542131752" duration="463000" />
       <workItem from="1756632408185" duration="261000" />
       <workItem from="1756732394338" duration="370000" />
-      <workItem from="1756897956909" duration="382000" />
-    </task>
-    <task id="LOCAL-00010" summary="Adds case insensitivity to tag names">
-      <option name="closed" value="true" />
-      <created>1755248563233</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1755248563233</updated>
+      <workItem from="1756897956909" duration="508000" />
     </task>
     <task id="LOCAL-00011" summary="Adds constants for colors">
       <option name="closed" value="true" />
@@ -567,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756541989972</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="v1.5.0">
+      <option name="closed" value="true" />
+      <created>1756898465279</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1756898465279</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
