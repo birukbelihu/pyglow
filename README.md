@@ -132,7 +132,7 @@ uv pip install pyglowx
 pip install pyglowx
 ```
 
-or install the dev version as described in this [section](https://github.com/birukbelihu/pyglow?tab=readme-ov-file#-installation) and run any example you want.
+or install the dev version as described in this [section](#-installation) and run any example you want.
 
 ```bash
 # Go inside the examples directory

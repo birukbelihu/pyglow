@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="v1.5.0">
-      <change beforePath="$PROJECT_DIR$/pyglow/views/termpicker.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/views/termpicker.py" afterDir="false" />
-    </list>
+    <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="v1.5.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,15 +166,7 @@
       <workItem from="1756542131752" duration="463000" />
       <workItem from="1756632408185" duration="261000" />
       <workItem from="1756732394338" duration="370000" />
-      <workItem from="1756897956909" duration="508000" />
-    </task>
-    <task id="LOCAL-00011" summary="Adds constants for colors">
-      <option name="closed" value="true" />
-      <created>1755251709460</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1755251709460</updated>
+      <workItem from="1756897956909" duration="547000" />
     </task>
     <task id="LOCAL-00012" summary="Adds constants for colors">
       <option name="closed" value="true" />
@@ -562,7 +552,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756898465279</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="v1.5.0">
+      <option name="closed" value="true" />
+      <created>1756898493246</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1756898493246</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
