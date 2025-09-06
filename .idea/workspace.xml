@@ -167,14 +167,7 @@
       <workItem from="1756632408185" duration="261000" />
       <workItem from="1756732394338" duration="370000" />
       <workItem from="1756897956909" duration="547000" />
-    </task>
-    <task id="LOCAL-00012" summary="Adds constants for colors">
-      <option name="closed" value="true" />
-      <created>1755251766637</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1755251766637</updated>
+      <workItem from="1757148268226" duration="297000" />
     </task>
     <task id="LOCAL-00013" summary="Adds constants for colors">
       <option name="closed" value="true" />
@@ -560,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756898493246</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="v1.5.0">
+      <option name="closed" value="true" />
+      <created>1757148530717</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1757148530719</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
