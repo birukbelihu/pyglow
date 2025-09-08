@@ -3,6 +3,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/BirukBelihu/pyglow)
 ![GitHub forks](https://img.shields.io/github/forks/BirukBelihu/pyglow)
 ![GitHub issues](https://img.shields.io/github/issues/BirukBelihu/pyglow)
+![GitHub License](https://img.shields.io/github/license/birukbelihu/neovibe-vscode)
 [![PyPI Downloads](https://static.pepy.tech/badge/pyglowx)](https://pepy.tech/projects/pyglowx)<br>
 ![Python](https://img.shields.io/pypi/pyversions/pyglowx)
 
