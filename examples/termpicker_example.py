@@ -7,8 +7,7 @@ def main():
     term_picker = TermPicker(
                         languages,
                         "Select a language",
-                        Fore.BLUE,
-                        "*")
+                        Fore.RED)
 
     choice = term_picker.pick()
 
