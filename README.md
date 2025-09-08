@@ -1,7 +1,8 @@
 # pyglow
 
 ![Python](https://img.shields.io/pypi/pyversions/pyglowx)
-[![PyPI Downloads](https://static.pepy.tech/badge/pyglowx)](https://pepy.tech/projects/pyglowx)<br>
+[![PyPI Downloads](https://static.pepy.tech/badge/pyglowx)](https://pepy.tech/projects/pyglowx)
+
 ![GitHub Repo stars](https://img.shields.io/github/stars/BirukBelihu/pyglow)
 ![GitHub forks](https://img.shields.io/github/forks/BirukBelihu/pyglow)
 ![GitHub issues](https://img.shields.io/github/issues/BirukBelihu/pyglow)
