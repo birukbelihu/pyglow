@@ -27,7 +27,7 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 
 ---
 
-### Samples
+### Screenshots
 
 |      ![pyglow sample 1](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_1.png)      |   ![pyglow sample 2](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_2.png)   |
 |:---------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
@@ -35,13 +35,9 @@ GitHub: [pyglow](https://github.com/BirukBelihu/pyglow)
 |      ![pyglow sample 3](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_3.png)      |   ![pyglow sample 4](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_4.png)   |
 |                                                                                                     |                                                                                               |
 |      ![pyglow sample 5](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_5.png)      |   ![pyglow sample 6](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_6.png)   |
-|  :-----------------------------------------------------------------------------------------------:  |  :-----------------------------------------------------------------------------------------:  |
 |                                                                                                     |                                                                                               |
 |      ![pyglow sample 7](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_7.png)      |   ![pyglow sample 8](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_8.png)   |
-|                                                                                                     |                                                                                               |
-|                                                                                                     |                                                                                               |
 |      ![pyglow sample 9](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_9.png)      |  ![pyglow sample 10](https://github.com/birukbelihu/pyglow/raw/master/samples/sample_10.png)  |
----
 
 ## 📦 Installation
 
