@@ -12,7 +12,7 @@ def main():
     Glow.print("[rgb(255,56,0) italic underline]Red subtitle[/]")
     Glow.print("[hex(#00FF00) bold dim]Green subtitle[/]")
 
-    Glow.print("[yellow bold strike]Task completed[/]")
+    Glow.print("[Yellow bold strike]Task completed[/]")
 
     print(f"{Fore.BRIGHT_YELLOW}{Back.CYAN}{Style.ITALIC}pyglow{ANSI_RESET}")
 
