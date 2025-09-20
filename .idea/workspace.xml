@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="v1.5.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyglow/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyglow/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements-dev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements-dev.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,15 +175,7 @@
       <workItem from="1757267620897" duration="769000" />
       <workItem from="1757309093112" duration="597000" />
       <workItem from="1757314187561" duration="706000" />
-      <workItem from="1758356864922" duration="72000" />
-    </task>
-    <task id="LOCAL-00017" summary="Adds hyperlink support">
-      <option name="closed" value="true" />
-      <created>1755343938454</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1755343938454</updated>
+      <workItem from="1758356864922" duration="2278000" />
     </task>
     <task id="LOCAL-00018" summary="Adds hyperlink support">
       <option name="closed" value="true" />
@@ -568,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757314697467</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="v1.5.0">
+      <option name="closed" value="true" />
+      <created>1758356974321</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1758356974323</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

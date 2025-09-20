@@ -1,28 +1,46 @@
+# [1.6.0] 2025-09-20
+
+### Breaking Changes
+- RGB values for `rgb(...)`, `fg(rgb(...))`, and `bg(rgb(...))` are now strictly validated. Out-of-range values (`<0` or `>255`) raise `ValueError`.
+
+### New Features
+- Full support for nested links and nested styles.
+- Improved parsing for foreground/background colors in hex and RGB formats.
+
+### Improvements
+- Enhanced error messages for unknown or invalid tags.
+- General parser performance and stability improvements for complex terminal markup.
+
 # [1.5.0] 2025-08-29
 
-## Adds Panel, Progressbar & TermPicker. Check their respective example usage [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
-## Performance improvements
+### New Features
+- Adds `Panel`, `Progressbar`, and `TermPicker`.
+- Example usage available [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
+
+### Improvements
+- Performance enhancements.
 
 # [1.4.0] 2025-08-24
 
-## Adds Table, Spinner. Check their respective example usage [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
+### New Features
+- Adds `Table` and `Spinner`.
+- Example usage available [here](https://github.com/birukbelihu/pyglow/raw/master/examples).
 
 # [1.3.2] 2025-08-16
 
-## Adds case insensitivity to tag names
+### New Features
+- Case-insensitive tag names.
+- Constants for colors (`Fore.BLUE`, `Back.GREEN`, `Style.BLINK`).
+- Method `printc` for printing text with constants without manual reset.
+- Hyperlink support.
 
-## Adds constants for colors(Fore.BLUE, Back.GREEN, Style.BLINK)
+# [1.2.7] 2025-08-14
 
-## Adds new method (printc) to print text with a constant(Fore.BLUE, Back.GREEN, Style.BLINK) without any manual reset.
+### Improvements
+- Suggestions for misspelt tags.
+- Performance enhancements.
 
-## Adds hyperlink support
+# [1.2.0] 2025-08-13
 
-# [1.2.7] - 2025-08-14
-
-## Adds suggestion for misspelt tags
-
-## Performance improvements
-
-# [1.2.0] - 2025-08-13
-
-## pyglow Initial Release
+### Initial Release
+- pyglow initial release.
