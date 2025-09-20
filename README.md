@@ -70,6 +70,13 @@ pip install -e .
 
 ---
 
+> [!TIP]
+> On PyPI, the package name is **`pyglowx`** because **`pyglow`** was already taken.  
+> However, once installed you can simply import it as:
+> ```python
+> from pyglow.pyglow import Glow
+> ```
+
 ## 🧠 Example Usage
 
 ```python
