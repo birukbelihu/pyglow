@@ -69,13 +69,6 @@ pip install -e .
 
 ---
 
-> [!TIP]
-> On PyPI, the package name is **`pyglowx`** because **`pyglow`** was already taken.  
-> However, once installed you can simply import it as:
-> ```python
-> from pyglow.pyglow import Glow
-> ```
-
 ![GitHub Repo stars](https://img.shields.io/github/stars/BirukBelihu/pyglow)
 ![GitHub forks](https://img.shields.io/github/forks/BirukBelihu/pyglow)
 ![GitHub issues](https://img.shields.io/github/issues/BirukBelihu/pyglow)
