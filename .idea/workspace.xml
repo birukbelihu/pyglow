@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0bd13dad-48df-429b-b521-74907d2e391e" name="Changes" comment="v1.5.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/nested_tags_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/nested_tags_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +175,7 @@
       <workItem from="1757309093112" duration="597000" />
       <workItem from="1757314187561" duration="706000" />
       <workItem from="1758356864922" duration="3042000" />
+      <workItem from="1758457845934" duration="545000" />
     </task>
     <task id="LOCAL-00020" summary="Adds hyperlink support">
       <option name="closed" value="true" />
